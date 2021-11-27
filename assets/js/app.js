@@ -11,4 +11,7 @@ $(document).ready(function () {
     $(".nav-overlay").addClass("d-none").removeClass("d-block");
     $(".header-mobile").css("transform", "translateX(100%)");
   });
+  $(".search-input").click(function () {
+    $(this).find("input").focus();
+  });
 });
